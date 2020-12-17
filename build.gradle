@@ -37,15 +37,13 @@ dependencies {
 
 test {
     useJUnitPlatform() {
-      //  includeTags 'Browser'
-       //  includeTags 'demo'
-        if (project.hasProperty("demo")) {
-            includeTags 'demo'
-            println("Executing limited demo test set")
+        if (project.hasProperty("Demo")) {
+            includeTags 'Demo'
+            System.out.println("Executing limited Demo test set")
         }
         if (project.hasProperty("Browser")) {
             includeTags 'Browser'
-            println("Executing limited Browser test set")
+            System.out.println("Executing limited Browser test set")
         }
     }
 }

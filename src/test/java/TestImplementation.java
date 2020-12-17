@@ -72,7 +72,7 @@ public class TestImplementation {
 
 
     @Test
-    @Tag("demo")
+    @Tag("Demo")
     public void matchTest() {
         System.out.println("\nmatchTest\n");
         assertThat("abc", containsString("c"));
@@ -80,15 +80,15 @@ public class TestImplementation {
 
 
     @Test
-    @Tag("demo")
+    @Tag("Demo")
     public void matchTest2() {
         System.out.println("\nmatchTest-2\n");
-        assertThat("abc", containsString("a"));
+        assertThat("abc", containsString("b"));
     }
 
 
     @Test
-    @Tag("demo")
+    @Tag("Demo")
     public void matchTest3() {
         System.out.println("\nmatchTest-3\n");
         assertThat("abc", containsString("b"));
