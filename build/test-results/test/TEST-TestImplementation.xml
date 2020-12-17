@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestImplementation" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-17T09:01:35" hostname="PC033" time="11.049">
+  <properties/>
+  <testcase name="verifyPageTitle()" classname="TestImplementation" time="11.049"/>
+  <system-out><![CDATA[constructor
+
+Page title : Apple
+
+
+Page URL : https://www.apple.com/mac/
+
+
+Page title : Mac - Apple
+
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 34210
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 17, 2020 10:01:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
