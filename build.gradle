@@ -34,6 +34,18 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
 }
 
+
 test {
-    useJUnitPlatform()
+    useJUnitPlatform() {
+      //  includeTags 'Browser'
+       //  includeTags 'demo'
+        if (project.hasProperty("demo")) {
+            includeTags 'demo'
+            println("Executing limited demo test set")
+        }
+        if (project.hasProperty("Browser")) {
+            includeTags 'Browser'
+            println("Executing limited Browser test set")
+        }
+    }
 }

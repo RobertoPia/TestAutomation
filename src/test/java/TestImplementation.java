@@ -50,6 +50,7 @@ public class TestImplementation {
     }
 
     @Test
+    @Tag("Browser")
     public void verifyPageTitle() throws InterruptedException {
         driver = new ChromeDriver(); /*In case only this test uses the browser*/
         driver.get("http://apple.com");
@@ -70,14 +71,26 @@ public class TestImplementation {
     }
 
 
-//    @Test
-//    public void matchTest() {
-//        assertThat("abc", containsString("b"));
-//    }
-//
-//
-//    @Test
-//    public void matchTest2() {
-//        assertThat("abc", containsString("a"));
-//    }
+    @Test
+    @Tag("demo")
+    public void matchTest() {
+        System.out.println("\nmatchTest\n");
+        assertThat("abc", containsString("c"));
+    }
+
+
+    @Test
+    @Tag("demo")
+    public void matchTest2() {
+        System.out.println("\nmatchTest-2\n");
+        assertThat("abc", containsString("a"));
+    }
+
+
+    @Test
+    @Tag("demo")
+    public void matchTest3() {
+        System.out.println("\nmatchTest-3\n");
+        assertThat("abc", containsString("b"));
+    }
 }
