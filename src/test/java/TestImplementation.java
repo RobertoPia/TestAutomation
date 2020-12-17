@@ -14,14 +14,19 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 public class TestImplementation {
 //  main function does not gets executed
+/*
     public static void main(String[] args) {
+        TestImplementation myObj = new TestImplementation();
         System.out.println("main function");
     }
+*/
 
 //  constructor gets executed, but is executed twice when there are two or more @Test to run...
+/*
     TestImplementation() {
         System.out.println("constructor");
     }
+*/
 
     private static WebDriver driver;
 
@@ -65,14 +70,14 @@ public class TestImplementation {
     }
 
 
-    @Test
-    public void matchTest() {
-        assertThat("abc", containsString("b"));
-    }
-
-
-    @Test
-    public void matchTest2() {
-        assertThat("abc", containsString("a"));
-    }
+//    @Test
+//    public void matchTest() {
+//        assertThat("abc", containsString("b"));
+//    }
+//
+//
+//    @Test
+//    public void matchTest2() {
+//        assertThat("abc", containsString("a"));
+//    }
 }
