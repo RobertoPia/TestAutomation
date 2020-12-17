@@ -65,7 +65,6 @@ public class TestImplementation {
     }
 
 
-/*
     @Test
     public void matchTest() {
         assertThat("abc", containsString("b"));
@@ -76,5 +75,4 @@ public class TestImplementation {
     public void matchTest2() {
         assertThat("abc", containsString("a"));
     }
-*/
 }
