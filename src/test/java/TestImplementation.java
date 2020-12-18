@@ -12,7 +12,7 @@ import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
-public class TestImplementation {
+public class TestImplementation extends JsPageElementFinder {
 //  main function does not gets executed
 /*
     public static void main(String[] args) {
@@ -111,12 +111,22 @@ public class TestImplementation {
 
         Thread.sleep(2000);
 
-        List<WebElement> elements = driver.findElements(By.tagName("button"));
-        for (int i = 0; i < elements.size(); i++){
-            String value = (String) js.executeScript("return arguments[0].outerHTML || '--';", elements.get(i));
-            if(value.contains("MRME2LL/A") || value.contains("MLA02LL/A")) {
-                js.executeScript("arguments[0].click();", elements.get(i));
-                break;
+//        List<WebElement> elements = driver.findElements(By.tagName("button"));
+//        for (int i = 0; i < elements.size(); i++){
+//            String value = (String) js.executeScript("return arguments[0].outerHTML || '--';", elements.get(i));
+//            if(value.contains("MRME2LL/A") || value.contains("MLA02LL/A")) {
+//                elements.get(i).click(); //Selenium
+//              //  js.executeScript("arguments[0].click();", elements.get(i)); //JavaScript in case Selenium doesn't works
+//                break;
+//            }
+//        }
+        element =  JsPageElementFinder(driver, "button", "MLA02LL/A");
+        if(element != null) {
+            element.click();
+        } else {
+            element =  JsPageElementFinder(driver, "button", "MRME2LL/A");
+            if(element != null) {
+                element.click();
             }
         }
 
