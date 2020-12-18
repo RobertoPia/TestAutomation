@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestImplementation" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-18T07:58:19" hostname="PC034" time="11.003">
+<testsuite name="TestImplementation" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-18T12:53:33" hostname="PC034" time="48.154">
   <properties/>
-  <testcase name="verifyPageTitle()" classname="TestImplementation" time="11.003"/>
+  <testcase name="verifyPageTitle()" classname="TestImplementation" time="48.154"/>
   <system-out><![CDATA[
 Page title : Apple
 
@@ -11,12 +11,351 @@ Page URL : https://www.apple.com/mac/
 
 Page title : Mac - Apple
 
+0; <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled="" aria-label="Submit Search"> </button>
+1; <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled="" aria-label="Clear Search">
+										<span class="ac-gn-searchform-reset-background"></span>
+									</button>
+2; <button id="ac-gn-searchview-close-small" class="ac-gn-searchview-close ac-gn-searchview-close-small" aria-label="Cancel Search">
+								<span class="ac-gn-searchview-close-cancel" aria-hidden="true">
+									Cancel
+								</span>
+							</button>
+3; <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Cancel Search">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button>
+4; <button aria-label="reset" aria-hidden="true" data-recon-click="inputReset,clear,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1,inputReset:materializer,cancelClickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer:engravingForm,resetEmojiTextButtonClick,engraving.engravingDetails.engravingPageData.engravingMessageBox0,engravingForm" data-recon-touchstart="materializer,cancelClickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-transitionend="materializer,finishTransition,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-globalclick="materializer,clickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-globaltouchstart="materializer,clickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-globalkeydown="materializer,escapeToClose,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" class="rr-inputreset rr-inputreset-materializer rr-materializer rr-materializer-invisible rr-materializer-hidden form-icons form-icons-small form-icons-clearsolid15 form-icon-reset" id="rr-materializer-engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show"></button>
+5; <button data-recon-click="engraving,removeEngrave,engraving,engraving">Remove Engraving</button>
+6; <button data-autom="saveEngrave" data-recon-click="engraving,saveEngrave,engraving,engraving" class="button form-button">Save</button>
+7; <button data-autom="cancelEngrave" data-recon-click="engraving,cancelEngrave,engraving,engraving" class="as-buttonlink">Cancel</button>
+8; <button aria-label="Close" data-recon-click="engraving,closeOverlay,engraving,engraving" class="as-overlay-close"><span class="icon icon-close"></span></button>
+9; <button aria-label="reset" aria-hidden="true" data-recon-click="inputReset,clear,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1,inputReset:materializer,cancelClickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer:engravingForm,resetEmojiTextButtonClick,engraving.engravingDetails.engravingPageData.engravingMessageBox0,engravingForm" data-recon-touchstart="materializer,cancelClickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-transitionend="materializer,finishTransition,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-globalclick="materializer,clickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-globaltouchstart="materializer,clickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-globalkeydown="materializer,escapeToClose,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" class="rr-inputreset rr-inputreset-materializer rr-materializer rr-materializer-invisible rr-materializer-hidden form-icons form-icons-small form-icons-clearsolid15 form-icon-reset" id="rr-materializer-engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show"></button>
+10; <button data-recon-click="engraving,removeEngrave,engraving,engraving">Remove Engraving</button>
+11; <button data-autom="saveEngrave" data-recon-click="engraving,saveEngrave,engraving,engraving" class="button form-button">Save</button>
+12; <button data-autom="cancelEngrave" data-recon-click="engraving,cancelEngrave,engraving,engraving" class="as-buttonlink">Cancel</button>
+13; <button aria-label="Close" data-recon-click="engraving,closeOverlay,engraving,engraving" class="as-overlay-close"><span class="icon icon-close"></span></button>
+14; <button aria-label="reset" aria-hidden="true" data-recon-click="inputReset,clear,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1,inputReset:materializer,cancelClickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer:engravingForm,resetEmojiTextButtonClick,engraving.engravingDetails.engravingPageData.engravingMessageBox0,engravingForm" data-recon-touchstart="materializer,cancelClickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-transitionend="materializer,finishTransition,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-globalclick="materializer,clickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-globaltouchstart="materializer,clickAway,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" data-recon-globalkeydown="materializer,escapeToClose,engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show,materializer" class="rr-inputreset rr-inputreset-materializer rr-materializer rr-materializer-invisible rr-materializer-hidden form-icons form-icons-small form-icons-clearsolid15 form-icon-reset" id="rr-materializer-engraving.engravingDetails.engravingPageData.engravingMessageBox0.inputTypes.line1_inputReset.show"></button>
+15; <button data-recon-click="engraving,removeEngrave,engraving,engraving">Remove Engraving</button>
+16; <button data-autom="saveEngrave" data-recon-click="engraving,saveEngrave,engraving,engraving" class="button form-button">Save</button>
+17; <button data-autom="cancelEngrave" data-recon-click="engraving,cancelEngrave,engraving,engraving" class="as-buttonlink">Cancel</button>
+18; <button aria-label="Close" data-recon-click="engraving,closeOverlay,engraving,engraving" class="as-overlay-close"><span class="icon icon-close"></span></button>
+19; <button type="submit" class="merchandising button" name="proceed" value="proceed" title="Review Bag" data-autom="proceed">
+        <span class="label">Review Bag</span>
+</button>
+20; <button aria-describedby="applecareGridGroupUS_async_labelledby applecareGridGroupUS_dudeinfo applecareGridGroupUS_apuinfo" value="S6124LL/A" class="button button-block rs-async-button  " data-autom="addToBag-applecareGridGroupUS" ($click)="addToBag('applecareGridGroupUS', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                        <span class="visuallyhidden">AppleCare+ for MacBook/MacBook Air</span>                    
+                </button>
+21; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+22; <button aria-describedby="usbctousbadapterGridGroup_async_labelledby usbctousbadapterGridGroup_dudeinfo usbctousbadapterGridGroup_apuinfo" value="MJ1M2AM/A" class="button button-block rs-async-button  " data-autom="addToBag-usbctousbadapterGridGroup" ($click)="addToBag('usbctousbadapterGridGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                        <span class="visuallyhidden">USB-C to USB Adapter</span>                    
+                </button>
+23; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+24; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">USB-C to USB Adapter<span>
+                            </span></span></button>
+25; <button value="MX0K2AM/A" aria-describedby="lightningusbcGridGroup_async_labelledby lightningusbcGridGroup_describedby_disclaimer lightningusbcGridGroup_dudeinfo lightningusbcGridGroup_apuinfo" class="button button-block rs-async-button  " data-autom="addToBag-lightningusbcGridGroup" ($click)="addToBag('lightningusbcGridGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                    
+                        <span class="visuallyhidden"><span class="visuallyhidden">USB-C to Lightning Cable (1 m) 2019 $19.00</span></span>                    
+                    
+                </button>
+26; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+27; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">USB-C to Lightning Cable (1&nbsp;m)<span>
+                            </span></span></button>
+28; <button value="MRME2LL/A" aria-describedby="MagicMouse2GridGroup_async_labelledby MagicMouse2GridGroup_describedby_disclaimer MagicMouse2GridGroup_dudeinfo MagicMouse2GridGroup_apuinfo" class="button button-block rs-async-button  " data-autom="addToBag-MagicMouse2GridGroup" ($click)="addToBag('MagicMouse2GridGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                    
+                        <span class="visuallyhidden"><span class="visuallyhidden">Magic Mouse 2 - Space Gray $99.00</span></span>                    
+                    
+                </button>
+29; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+30; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">Magic Mouse 2 - Space Gray<span>
+                            </span></span></button>
+31; <button aria-describedby="usbCtodigitalmultiportGridGroup_async_labelledby usbCtodigitalmultiportGridGroup_dudeinfo usbCtodigitalmultiportGridGroup_apuinfo" value="MUF82AM/A" class="button button-block rs-async-button  " data-autom="addToBag-usbCtodigitalmultiportGridGroup" ($click)="addToBag('usbCtodigitalmultiportGridGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                        <span class="visuallyhidden">USB-C Digital AV Multiport Adapter</span>                    
+                </button>
+32; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+33; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">USB-C Digital AV Multiport Adapter<span>
+                            </span></span></button>
+34; <button value="MRQM2ZM/A" aria-describedby="LeatherSleeve13GridGroup_async_labelledby LeatherSleeve13GridGroup_describedby_disclaimer LeatherSleeve13GridGroup_dudeinfo LeatherSleeve13GridGroup_apuinfo" class="button button-block rs-async-button  " data-autom="addToBag-LeatherSleeve13GridGroup" ($click)="addToBag('LeatherSleeve13GridGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                    
+                        <span class="visuallyhidden"><span class="visuallyhidden">Leather Sleeve for 13-inch MacBook Pro – Saddle Brown $179.00</span></span>                    
+                    
+                </button>
+35; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+36; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">Leather Sleeve for 13-inch MacBook Air and MacBook Pro - Saddle Brown<span>
+                            </span></span></button>
+37; <button aria-describedby="msOfficeHomeGroup_async_labelledby msOfficeHomeGroup_dudeinfo msOfficeHomeGroup_apuinfo" class="button button-block rs-async-button  disabled" data-autom="addToBag-msOfficeHomeGroup" disabled="">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                    
+                            <div class="visuallyhidden"><h3>Microsoft Office</h3></div>
+                </button>
+38; <button aria-describedby="USBCTOSDGroup_async_labelledby USBCTOSDGroup_dudeinfo USBCTOSDGroup_apuinfo" value="MUFG2AM/A" class="button button-block rs-async-button  " data-autom="addToBag-USBCTOSDGroup" ($click)="addToBag('USBCTOSDGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                        <span class="visuallyhidden">USB-C to SD Card Reader</span>                    
+                </button>
+39; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+40; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">USB-C to SD Card Reader<span>
+                            </span></span></button>
+41; <button aria-describedby="Thunderbolt3toUSBCgroup_async_labelledby Thunderbolt3toUSBCgroup_dudeinfo Thunderbolt3toUSBCgroup_apuinfo" value="MQ4H2AM/A" class="button button-block rs-async-button  " data-autom="addToBag-Thunderbolt3toUSBCgroup" ($click)="addToBag('Thunderbolt3toUSBCgroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                        <span class="visuallyhidden">Thunderbolt 3 (USB‑C) Cable (0.8 m)</span>                    
+                </button>
+42; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+43; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">Thunderbolt 3 (USB‑C) Cable (0.8 m)<span>
+                            </span></span></button>
+44; <button class="as-buttonlink rs-accessory-engraving-button" id="AirPodsProGroup-open-engravingOverlay" aria-describedby="AirPodsProGroup-engraving-footer-message" ($click)="openEngraving('AirPodsProGroup', 'add')">Personalize them for free
+                                        <span class="visuallyhidden"><span class="visuallyhidden">AirPods Pro</span></span>
+                                    </button>
+45; <button value="MWP22AM/A" aria-describedby="AirPodsProGroup_async_labelledby AirPodsProGroup_describedby_disclaimer AirPodsProGroup_dudeinfo AirPodsProGroup_apuinfo" class="button button-block rs-async-button  " data-autom="addToBag-AirPodsProGroup" ($click)="addToBag('AirPodsProGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                    
+                        <span class="visuallyhidden"><span class="visuallyhidden">AirPods Pro $249.00</span></span>                    
+                    
+                </button>
+46; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+47; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">AirPods Pro<span>
+                            </span></span></button>
+48; <button class="as-buttonlink rs-accessory-engraving-button" id="AirPodsGroup-open-engravingOverlay" aria-describedby="AirPodsGroup-engraving-footer-message" ($click)="openEngraving('AirPodsGroup', 'add')">Personalize them for free
+                                        <span class="visuallyhidden"><span class="visuallyhidden">AirPods with Charging Case</span></span>
+                                    </button>
+49; <button value="MV7N2AM/A" aria-describedby="AirPodsGroup_async_labelledby AirPodsGroup_describedby_disclaimer AirPodsGroup_dudeinfo AirPodsGroup_apuinfo" class="button button-block rs-async-button  " data-autom="addToBag-AirPodsGroup" ($click)="addToBag('AirPodsGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                    
+                        <span class="visuallyhidden"><span class="visuallyhidden">AirPods with Charging Case $159.00</span></span>                    
+                    
+                </button>
+50; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+51; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">AirPods with Charging Case<span>
+                            </span></span></button>
+52; <button class="as-buttonlink rs-accessory-engraving-button" id="AirPodsWirelessCCSectionGroup-open-engravingOverlay" aria-describedby="AirPodsWirelessCCSectionGroup-engraving-footer-message" ($click)="openEngraving('AirPodsWirelessCCSectionGroup', 'add')">Personalize them for free
+                                        <span class="visuallyhidden"><span class="visuallyhidden">AirPods with Wireless Charging Case</span></span>
+                                    </button>
+53; <button value="MRXJ2AM/A" aria-describedby="AirPodsWirelessCCSectionGroup_async_labelledby AirPodsWirelessCCSectionGroup_describedby_disclaimer AirPodsWirelessCCSectionGroup_dudeinfo AirPodsWirelessCCSectionGroup_apuinfo" class="button button-block rs-async-button  " data-autom="addToBag-AirPodsWirelessCCSectionGroup" ($click)="addToBag('AirPodsWirelessCCSectionGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                    
+                        <span class="visuallyhidden"><span class="visuallyhidden">AirPods with Wireless Charging Case $199.00</span></span>                    
+                    
+                </button>
+54; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+55; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">AirPods with Wireless Charging Case<span>
+                            </span></span></button>
+56; <button aria-describedby="usbCtothunderboltGridGroup_async_labelledby usbCtothunderboltGridGroup_dudeinfo usbCtothunderboltGridGroup_apuinfo" value="MMEL2AM/A" class="button button-block rs-async-button  " data-autom="addToBag-usbCtothunderboltGridGroup" ($click)="addToBag('usbCtothunderboltGridGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                        <span class="visuallyhidden">Thunderbolt 3 (USB-C) to Thunderbolt 2 Adapter</span>                    
+                </button>
+57; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+58; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">Thunderbolt 3 (USB-C) to Thunderbolt 2 Adapter<span>
+                            </span></span></button>
+59; <button aria-describedby="lg4kGridGroup_async_labelledby lg4kGridGroup_dudeinfo lg4kGridGroup_apuinfo" value="HMUA2VC/A" class="button button-block rs-async-button  " data-autom="addToBag-lg4kGridGroup" ($click)="addToBag('lg4kGridGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                        <span class="visuallyhidden">LG UltraFine 4K Display</span>                    
+                </button>
+60; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+61; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">LG UltraFine 4K Display<span>
+                            </span></span></button>
+62; <button aria-describedby="lg5kGridGroup_async_labelledby lg5kGridGroup_dudeinfo lg5kGridGroup_apuinfo" value="HMUB2LL/A" class="button button-block rs-async-button  " data-autom="addToBag-lg5kGridGroup" ($click)="addToBag('lg5kGridGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                        <span class="visuallyhidden">LG UltraFine 5K Display</span>                    
+                </button>
+63; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+64; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">LG UltraFine 5K Display<span>
+                            </span></span></button>
+65; <button aria-describedby="poweradapterextensioncableGridGroup_async_labelledby poweradapterextensioncableGridGroup_dudeinfo poweradapterextensioncableGridGroup_apuinfo" value="MK122LL/A" class="button button-block rs-async-button  " data-autom="addToBag-poweradapterextensioncableGridGroup" ($click)="addToBag('poweradapterextensioncableGridGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                        <span class="visuallyhidden">Power Adapter Extension Cable</span>                    
+                </button>
+66; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+67; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">Power Adapter Extension Cable<span>
+                            </span></span></button>
+68; <button value="HMU22ZM/A" aria-describedby="lacieSSDGroup_async_labelledby lacieSSDGroup_describedby_disclaimer lacieSSDGroup_dudeinfo lacieSSDGroup_apuinfo" class="button button-block rs-async-button  " data-autom="addToBag-lacieSSDGroup" ($click)="addToBag('lacieSSDGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                    
+                        <span class="visuallyhidden"><span class="visuallyhidden">LaCie 500GB Mobile SSD High-Performance External SSD USB-C USB 3.0 Thunderbolt 3 $129.95</span></span>                    
+                    
+                </button>
+69; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+70; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">LaCie 500GB Mobile SSD High‑Performance External SSD USB-C USB 3.0<span>
+                            </span></span></button>
+71; <button value="HPA02ZM/A" aria-describedby="IncaseHardshellGridGroup_async_labelledby IncaseHardshellGridGroup_describedby_disclaimer IncaseHardshellGridGroup_dudeinfo IncaseHardshellGridGroup_apuinfo" class="button button-block rs-async-button  " data-autom="addToBag-IncaseHardshellGridGroup" ($click)="addToBag('IncaseHardshellGridGroup', @element.attr('value'), 'Adding')">
+
+                    <span class="rs-async-fade">
+                        
+                        Add to Bag
+                    </span>
+                    
+                        <span class="visuallyhidden"><span class="visuallyhidden">Incase 13" Hardshell Case for MacBook Air W/Retina Display Dots 2020 - Clear $49.95</span></span>                    
+                    
+                </button>
+72; <button class="as-delivery-overlay-trigger as-purchaseinfo-dudetrigger as-buttonlink" data-ase-overlay="dude-overlay" data-ase-click="show">
+                    See delivery dates for your location
+                </button>
+73; <button class="as-retailavailabilitytrigger-infobutton retail-availability-search-trigger" type="button" data-ase-overlay="buac-overlay" data-ase-click="show" data-autom="buacEligibilityChecker">
+                                Check availability
+                                <span class="a11y">Incase 13” Hardshell Case for MacBook Air 2020<span>
+                            </span></span></button>
+74; <button class="as-overlay-close ase-overlay-close" data-autom="overlayCloseButton" data-ase-overlay="dude-overlay" data-ase-click="hide">
+        <i class="icon icon-close"></i>
+                        <span class="a11y">Close</span>
+
+	</button>
+75; <button class="ase-inputreset" type="button" aria-label="">
+        <span class="a11y"></span>
+    </button>
+76; <button type="submit" id="as-retailavailabilitysearch-searchbutton" class="large-3 small-6 column button as-button-tertiary merchandising " data-autom="storeSearchButton">
+                <span class="search-stores">Search</span>
+                            </button>
+77; <button class="as-overlay-close ase-overlay-close" data-autom="overlayCloseButton" data-ase-overlay="buac-overlay" data-ase-click="hide">
+        <i class="icon icon-close"></i>
+                        <span class="a11y">Close</span>
+
+	</button>
+78; <button class="as-overlay-close ase-overlay-close" data-autom="overlayCloseButton" data-ase-overlay="installment-info-overlay" data-ase-click="hide">
+        <i class="icon icon-close"></i>
+                        <span class="a11y">Close</span>
+
+	</button>
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 39519
+  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 31753
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Dec 18, 2020 8:58:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 18, 2020 1:53:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

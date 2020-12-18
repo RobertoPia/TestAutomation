@@ -41,9 +41,9 @@ test {
             includeTags 'Demo'
             System.out.println("Executing limited Demo test set")
         }
-        if (project.hasProperty("Browser")) {
-            includeTags 'Browser'
-            System.out.println("Executing limited Browser test set")
+        if (project.hasProperty("BuyAMac")) {
+            includeTags 'BuyAMac'
+            System.out.println("Executing limited Buy-A-Mac test set")
         }
     }
 }
