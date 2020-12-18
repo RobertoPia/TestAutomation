@@ -113,7 +113,7 @@ public class TestImplementation {
 
         List<WebElement> elements = driver.findElements(By.tagName("button"));
         for (int i = 0; i < elements.size(); i++){
-            String value = (String) js.executeScript("return arguments[0].outerHTML || 'not set yet';", elements.get(i));
+            String value = (String) js.executeScript("return arguments[0].outerHTML || '--';", elements.get(i));
             boolean valid = false;
             if(value.contains("MRME2LL/A") || value.contains("MLA02LL/A")) {
                 valid = true;
@@ -121,7 +121,6 @@ public class TestImplementation {
              if(valid) {
                  js.executeScript("arguments[0].click();", elements.get(i));
              }
-            System.out.println(i + "; " + value);
         }
 
         Thread.sleep(2000);
