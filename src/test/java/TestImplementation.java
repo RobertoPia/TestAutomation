@@ -16,7 +16,6 @@ public class TestImplementation {
 //  main function does not gets executed
 /*
     public static void main(String[] args) {
-        TestImplementation myObj = new TestImplementation();
         System.out.println("main function");
     }
 */
@@ -28,7 +27,7 @@ public class TestImplementation {
     }
 */
 
-    private static WebDriver driver;
+    private static ChromeDriver driver;
 
     @BeforeAll
     public static void setupWebdriverChromeDriver() {
