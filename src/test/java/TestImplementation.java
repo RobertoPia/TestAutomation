@@ -1,12 +1,12 @@
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.JavascriptExecutor;
+
+import java.util.List;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -49,7 +49,7 @@ public class TestImplementation {
     }
 
     @Test
-    @Tag("Browser")
+    @Tag("BuyAMac")
     public void verifyPageTitle() throws InterruptedException {
         driver = new ChromeDriver(); /*In case only this test uses the browser*/
         driver.get("http://apple.com");
@@ -67,6 +67,76 @@ public class TestImplementation {
         System.out.println("\nPage URL : " + driver.getCurrentUrl()+"\n");
         System.out.println("\nPage title : " + driver.getTitle()+"\n");
         assertThat(driver.getTitle(), containsString("Apple"));
+
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+
+        element = driver.findElement(By.className("chapternav-link"));
+        element.click();
+
+        Thread.sleep(2000);
+
+        element = driver.findElement(By.linkText("Buy"));
+        element.click();
+
+        Thread.sleep(2000);
+
+        element = driver.findElement(By.name("proceed"));
+        element.click();
+
+        Thread.sleep(2000);
+
+        element = driver.findElement(By.id("memory__dummy_z124_065_c99n_2"));
+        js.executeScript("arguments[0].focus();", element);
+        Thread.sleep(2000);
+        js.executeScript("arguments[0].click();", element);
+
+        Thread.sleep(2000);
+
+        element = driver.findElement(By.id("hard_drivesolid_state_drive__dummy_z124_065_c99v_3"));
+        js.executeScript("arguments[0].focus();", element);
+        Thread.sleep(2000);
+        js.executeScript("arguments[0].click();", element);
+
+        Thread.sleep(2000);
+
+        element = driver.findElement(By.name("add-to-cart"));
+        element.click();
+
+        Thread.sleep(2000);
+
+        element = driver.findElement(By.id("MagicMouse2GridGroup_0_label"));
+        js.executeScript("arguments[0].focus();", element);
+        Thread.sleep(2000);
+        element.click();
+
+        Thread.sleep(2000);
+
+        List<WebElement> elements = driver.findElements(By.tagName("button"));
+        for (int i = 0; i < elements.size(); i++){
+            String value = (String) js.executeScript("return arguments[0].outerHTML || 'not set yet';", elements.get(i));
+            boolean valid = false;
+            if(value.contains("MRME2LL/A") || value.contains("MLA02LL/A")) {
+                valid = true;
+            }
+             if(valid) {
+                 js.executeScript("arguments[0].click();", elements.get(i));
+             }
+            System.out.println(i + "; " + value);
+        }
+
+        Thread.sleep(2000);
+
+        element = driver.findElement(By.className("form-submit-btn"));
+        element.click();
+
+        Thread.sleep(2000);
+
+        element = driver.findElement(By.id("shoppingCart.actions.checkout"));
+        js.executeScript("arguments[0].focus();", element);
+        Thread.sleep(2000);
+        element.click();
+
+        Thread.sleep(2000);
     }
 
 
